@@ -1,0 +1,12 @@
+@import '../../Assets//global.module.scss';
+.navBar {
+    height: 60px;
+    @include display(null,center,null);
+   border-bottom: $border-bottom;
+
+    .navContainer {
+        width: 100%;
+        max-width: 1024px;
+        @include display(row,space-between,center);
+    }
+}

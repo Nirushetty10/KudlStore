@@ -1,0 +1,8 @@
+$border-bottom: 1px solid #555;
+
+@mixin display($flex-direction, $jc , $ai) {
+    display: flex;
+    flex-direction : $flex-direction;
+    align-items: $ai;
+    justify-content : $jc;
+  }
